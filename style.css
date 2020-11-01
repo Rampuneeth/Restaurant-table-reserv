@@ -1,0 +1,233 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.location
+{
+    padding: 5px 5px;
+    margin: 4px 4px;
+    border-radius: 6px;
+}
+section 
+{
+    display: block;
+    font-size: 14px;
+    line-height: 2px;
+}    
+section .how-it-works
+{
+    margin: 50px 0;
+    background: #fff; 
+}
+.header
+{
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    padding: 4px 4px;
+}
+.sub-header
+{
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1%;
+}
+.category{
+    color: #fff;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    font-family: cursive;
+}
+.category img{
+    width: 70%;
+    border-radius: 60%;
+}
+.menu img 
+{
+    margin-left: 40px;
+}
+.grill img{
+    margin-left: 40px;
+}
+.snacks img
+{
+    margin-left: 40px;
+}
+.snacks,.grill{
+    padding-left: 1rem;
+}
+.menu h4
+{
+    color: #111;
+    font-size: 1.3em;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.menu h4 span
+{
+    color: orangered;
+}
+.grill h4
+{
+    color: #111;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+.grill h4 span
+{
+    color: orangered;
+}
+.snacks h4
+{
+    color: #111;
+    font-size: 1.3em;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.snacks h4 span
+{
+    color: orangered;
+}
+.container2 
+{
+    margin-top: 1%;
+    overflow: hidden;
+    width: 100%;
+}
+.nav res
+{
+    color: #111;
+    font-size: 2em;
+    overflow: hidden;
+    font-weight: 300;
+}
+.no-of-rest
+{
+    color: #111;
+    margin-top: 20px;
+    font-size: 1.8em;
+    margin-left: 80px;
+    margin-bottom: 10px;
+
+}
+.container2 .nav-link
+{
+    color: #111;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.category2
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width:900px)
+{
+    .how-it-works
+    {
+        margin-top:10px;
+    }
+    .how-it-works h2 
+    {
+        margin-top:10px;
+    }
+    .sub-header
+    {
+        font-size: 1em;
+    }
+    .no-of-rest
+    {
+        font-size: 1.3em;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .category2 
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card-title
+    {
+        font-size: 1.2em;
+    }
+    .card-text
+    {
+        visibility: hidden;
+    }
+    .card-body .btn 
+    {
+        padding: 2px 8px;
+        margin-top: 10px;
+
+    }
+}
+@media (max-width:400px)
+{
+    .how-it-works h2 {
+        font-size: 1.3em;
+    }
+    .how-it-works .sub-header
+    {
+        font-size: 0.8em;
+    }
+    .menu h4 
+    {
+        font-size: 1em;
+    }
+    .grill h4 
+    {
+        font-size: 1em;
+    }
+    .snacks h4 
+    {
+        font-size: 1em;
+    }
+    .container2
+    {
+        margin-top: 10px;
+    }
+    .no-of-rest
+    {
+        font-size: 0.8em;
+        text-align:center;
+        margin-top: 10px;
+    }
+    .nav-res 
+    {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .container2 .nav-link
+    {
+        font-size: 0.8em;
+        margin-bottom: 10px;
+    }
+    .category2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-text
+    {
+        visibility: visible;
+    }
+}    
